@@ -21,3 +21,11 @@ export const selectTimer = (index) => {
         payload: { index }
     }
 }
+
+export const DELETE_TIMER = 'DELETE_TIMER'
+export const deleteTimer = (index) => {
+    return {
+        type: DELETE_TIMER,
+        payload: { index }
+    }
+}
