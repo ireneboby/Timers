@@ -5,5 +5,5 @@ import selectedTimerReducer from './selectedTimerReducer';
 
 export default combineReducers({
   timers: timerReducer,              // array
-  selectedTimer: selectedTimerReducer // int/number
+  selectedTimer: selectedTimerReducer, // int/number
 });
